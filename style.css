@@ -1,0 +1,148 @@
+:root {
+	box-sizing: border-box;
+	font-size: 1.10em;
+}
+*,
+::before,
+::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+}
+.wrapper {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.banner_container {
+	background-image: url(../img/bcbanner.png);
+	background-size: cover;
+	width: 100%;
+	color: #ffffff;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.banner_container *+* {
+	margin-bottom: 34px;
+}
+h1 {
+	width:100%;
+	font-size: 2em;
+	max-width: 800px;
+	margin: 0 auto;
+
+	padding-top: 20px;
+}
+.banner_container>p {
+	max-width: 800px;
+	line-height: 20px;
+}
+.contacts{
+	text-decoration: none;
+	color: #17528e;
+	font-weight: 700;
+	margin: 130px auto;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding: 12px;
+	width: 15%;
+	transition-property: all;
+	transition-duration: 1s;
+}
+.contacts:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	background-color: #96adc5;
+}
+
+.container_about {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 15px;
+	min-height: 480px;
+}
+
+.container_about h2{
+	margin-top:95px;
+	color: #17528e;
+	font-size: 2em;
+	font-weight: 400;
+}
+.container_about p{
+	margin:50px 0 10px 0;
+	letter-spacing: 0.5px;
+	line-height: 35px;
+}
+.container_skills {
+	background-color: #f7fafe;
+	
+}
+.container_skills h2{
+	color: #17528e;
+	font-size: 2em;
+	font-weight: 400;
+	padding-top:30px;
+}
+.container_skills h3{
+	color: #17528e;
+	text-transform: uppercase;
+}
+.Technologies_skills {
+	max-width: 1170px;
+	width: 100%;
+	padding: 110px 0 5px 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2em;
+	justify-content: center;
+}
+
+.Technologies_skills_icon *+* {
+	padding:20px;
+}
+ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul>li {
+	list-style-type: none;
+  padding-bottom: 5px;
+}
+a {
+	text-decoration: none;
+}
+
+footer {
+	min-height: 200px;
+	background-image: url(../img/bcfooter.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer h2 {
+	color: #ffffff;
+	margin-bottom: 10px';
+}
+
+header>img {
+	padding-top: 20px;
+	border-radius: 50%;
+}
