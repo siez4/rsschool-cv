@@ -24,8 +24,9 @@ My dream is to become a web developer and find my first job. I strived for this 
 
 ### Education:
 + 2013-2017 BSU College of Law in Minsk
-+ 2017-2021 Saint Petersburg tate University of Aerospace Instrumentation 
++ 2017-2021 Saint Petersburg State University of Aerospace Instrumentation 
 
+### Project example: https://vhqmusic.ru/
 
 ### Languages:
 + Russian - Native
