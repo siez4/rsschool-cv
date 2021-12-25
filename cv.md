@@ -6,17 +6,18 @@
 ### **Contact**:
 #### **Phone**: +79818793067
 #### **E-mail**: siez4@yandex.ru
-#### **[https://t.me/siez4](Telegram)**
+#### **Telegram: https://t.me/siez4**
 ==========
 ### About Myself:
 My dream is to become a web developer and find my first job. I strived for this and I believe that everything will definitely work out and I will be able to achieve this goal by improving old and acquiring new skills.
 ==========
-### Skills;
+
+### Skills:
 + HTML5, CSS3
 + JavaScript Basics
 + Bootstrap
 + Git and GitHub
-+ Adobe Photoshop
++Adobe Photoshop
 ==========
 ### Education:
 + 2013-2017 BSU College of Law in Minsk
