@@ -34,7 +34,7 @@ img {
     width: 350px;
     height: 350px;
 }
-main{
+.main-info{
     padding-top: 70px;
     display: flex;
     justify-content: center;
