@@ -16,18 +16,18 @@ header{
 nav{
     padding: 40px;
 }
-ul{
+header ul{
     margin: 0;
     display: flex;
     justify-content: center;
 }
-li{
+header li{
     list-style-type: none;
     font-size: 14x;
     text-transform: uppercase;
 
 }
-li + li {
+header li + li {
     margin-left: 100px;
 }
 img {
@@ -63,4 +63,21 @@ section.about{
 .profile{
     margin-left: 80px;
     line-height: 25px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+section.skills li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+section.skills ul{
+    padding: 0;
+}
+.projects span{
+    color: red;
+}
+.code-inline{
+   text-align: center;
 }
