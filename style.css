@@ -1,4 +1,97 @@
-*{
-    font-size: 1em;
-    padding:0;
+:root{ 
+	box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+header{
+    background-color: #ebebeb;
+}
+nav{
+    padding: 40px;
+}
+header ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+header li{
+    list-style-type: none;
+    font-size: 14x;
+    text-transform: uppercase;
+
+}
+header li + li {
+    margin-left: 100px;
+}
+img {
+    width: 350px;
+    height: 350px;
+}
+.main-info{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.main-name{
+    margin-left: 70px;
+}
+.main-name h1{
+    text-transform: uppercase;
+}
+.main-name h2{
+    font-size: 20px;
+    color: yellowgreen;
+}
+section.about{
+    padding-top: 30px;
+}
+.education-profile{
+    display: flex;
+    justify-content: space-between;
+}
+.education{
+    max-width: 300px;
+    line-height: 25px;
+}
+.profile{
+    margin-left: 80px;
+    line-height: 25px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+section.skills li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+section.skills ul{
+    padding: 0;
+}
+.projects span{
+    color: red;
+}
+.code-inline{
+   text-align: center;
+}
+.footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.footer .rsscool-logo{
+    width: 80px;
+    height: 50px;
+}
+.footer .GitHub-Log{
+    width: 60px;
+    height: 50px;
 }
