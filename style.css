@@ -1,4 +1,51 @@
-*{
-    font-size: 1em;
-    padding:0;
+:root{ 
+	box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+header{
+    background-color: #ebebeb;
+}
+nav{
+    padding: 40px;
+}
+ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    font-size: 14x;
+    text-transform: uppercase;
+
+}
+li + li {
+    margin-left: 100px;
+}
+img {
+    width: 350px;
+    height: 350px;
+}
+main{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.main-name{
+    margin-left: 70px;
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    font-size: 20px;
+    color: yellowgreen;
 }
